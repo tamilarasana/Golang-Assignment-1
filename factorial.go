@@ -11,7 +11,7 @@ func fact(n int) int {
 
 func main() {
 	var num int
-	fmt.Println("Enter number")
+	fmt.Println("Enter the number")
 	fmt.Scan(&num)
 	fmt.Println("Factorial of ", num, " is : ", fact(num))
 }
